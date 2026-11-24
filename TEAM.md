@@ -4,7 +4,7 @@ Mã bộ ảnh: **G10** · Hình thức: **cá nhân**
 
 | Họ tên | MSSV | Đã gán đủ 22 ảnh? | Review chéo với (peer diff) | Số dòng disagreement đã xử lý |
 |---|---|---|---|---|
-| Lê Trung Sang | 2A202603125 | có | Phan Hải Đăng | Chưa xác định, chờ peer_export_final.zip |
+| Lê Trung Sang | 2A202603125 | có | Nguyễn Anh Tiến / Phan Hải Đăng | 12 dòng đã xử lý trong disagreement_log.csv |
 
 ## Cá nhân
 

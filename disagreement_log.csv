@@ -1,0 +1,13 @@
+frame_id,verdict,guideline_rule,action
+S02_rgb đến S08_rgb,peer,4.4-4 và 4.1,Đổi modality từ ir sang rgb cho 7 ảnh có hậu tố rgb
+S01_ir,peer,4.8,Bổ sung object có type=cup ở vị trí cốc nhìn rõ
+S01_rgb,peer,4.8,Bổ sung object có type=cup ở vị trí cốc nhìn rõ
+S01_rgb,peer,4.8 và 4.4-1,Đổi child_seat.occupied từ no sang unknown do lòng ghế quá tối
+D01,peer,4.5,Đổi glasses từ unknown sang clear theo kính cận trong suốt đã xác nhận
+D05,peer,4.5,Đổi gaze_zone từ other sang lap
+D05,mine,4.7,Giữ tay thấp là left và tay cao là right vì phân định theo tài xế; yêu cầu bản peer ngược lại cập nhật
+D01 và D03,peer,4.6,Giữ face13 nếu mặt đạt ngưỡng 60 px; kiểm tra đủ 13 điểm và cờ occluded/outside
+S02 và S03,needs_manual,4.8 và 4.4-5,Đối chiếu từng ghế và box seat/object trực tiếp trong CVAT
+S05 và S07,needs_manual,4.8 và 4.4-5,Đối chiếu từng ghế và box seat/object trực tiếp trong CVAT
+S06_rgb và S08_rgb,peer,4.8,Ưu tiên infant_seat.facing=rear sau khi xác nhận hướng nôi trực tiếp trong CVAT
+D01 đến D06,needs_manual,4.4-5 và 4.7,Kiểm tra thủ công box person/hand/object/phone, IoU, phần bị che và mặt tối
