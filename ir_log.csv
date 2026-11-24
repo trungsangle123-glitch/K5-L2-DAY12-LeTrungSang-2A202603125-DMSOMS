@@ -1,0 +1,7 @@
+frame_id,source,phenomenon,affected_field,effect_on_label
+S01_ir,IR_sim,"Nơi có bóng tối làm không nhìn thấy dây an toàn",seatbelt,"unknown thay vì đoán trạng thái"
+S02_ir,IR_sim,"Vùng ghế tối làm người hoặc vật có thể bị thiếu tương phản",seatbelt,"Giữ unknown nếu không xác định rõ"
+S03_ir,IR_sim,"Đồ vật có hình dạng tương tự vật khác do thiếu màu",object.type,"Chỉ dùng bag, box, cup hoặc other khi hình dạng đủ rõ"
+S04_ir,IR_sim,"Mặt người lớn thiếu chi tiết khi độ tương phản thấp",face,"Không thêm face khi không thấy cả mắt và mũi"
+D01,real_IR,"Đốm hoặc ánh sáng phản xạ có thể che vùng mắt",eye_left,"Ghi unknown thay closed/open nếu không phân biệt được"
+D03,real_IR,"Tay gần vùng bàn tay khác làm khó xác định tay nào",hand.side,"side phải theo tay của tài xế, không theo vị trí trong ảnh"
